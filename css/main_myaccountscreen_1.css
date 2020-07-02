@@ -1,0 +1,124 @@
+/* CARDS */
+
+.all {
+  width: 87%;
+  margin: auto;
+}
+
+.all_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 361px);
+  grid-template-rows: repeat(3, 601px);
+  grid-column-gap: 38.1px;
+  grid-row-gap: 40px;
+  margin: 60px;
+}
+
+.card {
+  width: 361px;
+  height: 601px;
+  border: solid 1px #e2e2e2;
+  box-sizing: none;
+}
+
+h2 {
+  width: 324px;
+  height: 53px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.27;
+  text-align: center;
+  color: #262626;
+  margin: 30.9px 54.7px 0 20.2px;
+}
+
+.all_photos {
+  position: relative;
+  background: #f7f7f7;
+}
+
+.photo {
+  width: 100%;
+  height: 341.6px;
+  object-fit: contain;
+}
+
+.icons {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 68px;
+  height: 255px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 20px 0 rgba(191, 191, 191, 0.16);
+}
+
+.icons figure {
+  margin: 0px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+}
+
+.unique {
+  border-bottom: 1px solid #f7f8fa;
+  border-top: 1px solid #f7f8fa;
+}
+
+.card_detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 17.7px;
+}
+
+.star {
+  margin-right: 9.2px;
+}
+
+.all_price {
+  width: 148px;
+  display: flex;
+  justify-content: space-around;
+  margin: 17px auto 20px;
+}
+
+.skd {
+  color: #545454;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.price1 {
+  color: #fc3e39;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.27;
+}
+
+.price2 {
+  color: #545454;
+  font-size: 22px;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.27;
+  text-decoration: line-through;
+}
+
+.card_detail button {
+  background-color: #63165f;
+  color: #ffffff;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 50px;
+  width: 208px;
+  height: 41px;
+  border: 0px;
+}
+
+.card_detail button:focus {
+  outline: none;
+}
