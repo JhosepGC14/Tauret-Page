@@ -49,6 +49,8 @@ tbody {
     color: #2e2e2e;
     text-align: left;
     display: flex;
+
+    margin: 50px auto;
 }
 
 .table_price h3 {
@@ -62,6 +64,8 @@ tbody {
     line-height: 1.2;
     text-decoration: line-through;
     color: #c1c1c1;
+
+    margin-top: 17px;
 }
 
 .table_order {
