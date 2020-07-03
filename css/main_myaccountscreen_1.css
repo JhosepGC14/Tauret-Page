@@ -8,11 +8,11 @@
 .all_cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 601px);
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 38.1px;
   grid-row-gap: 40px;
   width: 90%;
-  margin: 52.7px auto 53.9px ;
+  margin: 52.7px auto 53.9px;
 }
 
 .card {
@@ -119,6 +119,7 @@
   width: 208px;
   height: 41px;
   border: 0px;
+  margin-bottom: 33px;
 }
 
 .card_detail button:focus {
@@ -127,13 +128,13 @@
 
 /* RESPONSIVE */
 
-@media screen and (max-width:375px) {
+@media screen and (max-width: 375px) {
   .all_cards {
     grid-template-columns: repeat(2, 160px);
-    grid-template-rows: repeat(3,267px);
+    grid-template-rows: repeat(3, 267px);
     grid-column-gap: 15.4px;
     grid-row-gap: 4px;
-    margin: 38px 20px 138px ;
+    margin: 38px 20px 138px;
   }
 
   .card {
@@ -170,7 +171,4 @@
   .star {
     margin-right: 4px;
   }
-
-
 }
-
