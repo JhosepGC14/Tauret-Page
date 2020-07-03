@@ -1,35 +1,37 @@
 /* CARDS */
 
 .all {
-  width: 87%;
+  width: 95%;
   margin: auto;
 }
 
 .all_cards {
   display: grid;
-  grid-template-columns: repeat(3, 361px);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 601px);
   grid-column-gap: 38.1px;
   grid-row-gap: 40px;
-  margin: 60px;
+  width: 90%;
+  margin: 52.7px auto 53.9px ;
 }
 
 .card {
-  width: 361px;
-  height: 601px;
+  width: 100%;
+  height: 100%;
   border: solid 1px #e2e2e2;
-  box-sizing: none;
 }
 
-h2 {
-  width: 324px;
-  height: 53px;
+.name {
+  width: 100%;
+  margin: 30.9px auto 0px;
+}
+
+.name h2 {
   font-size: 22px;
-  font-weight: 500;
   line-height: 1.27;
   text-align: center;
   color: #262626;
-  margin: 30.9px 54.7px 0 20.2px;
+  margin: 0px;
 }
 
 .all_photos {
@@ -39,7 +41,7 @@ h2 {
 
 .photo {
   width: 100%;
-  height: 341.6px;
+  /* height: 341.6px; */
   object-fit: contain;
 }
 
@@ -82,7 +84,7 @@ h2 {
   width: 148px;
   display: flex;
   justify-content: space-around;
-  margin: 17px auto 20px;
+  margin: 17px auto 21px;
 }
 
 .skd {
@@ -122,3 +124,53 @@ h2 {
 .card_detail button:focus {
   outline: none;
 }
+
+/* RESPONSIVE */
+
+@media screen and (max-width:375px) {
+  .all_cards {
+    grid-template-columns: repeat(2, 160px);
+    grid-template-rows: repeat(3,267px);
+    grid-column-gap: 15.4px;
+    grid-row-gap: 4px;
+    margin: 38px 20px 138px ;
+  }
+
+  .card {
+    width: 160px;
+    height: 267px;
+  }
+
+  .name {
+    margin: 11.3px auto 0px;
+  }
+
+  .name h2 {
+    font-size: 9px;
+    line-height: 1.22;
+  }
+
+  .photo {
+    height: 151.3px;
+  }
+
+  .icons {
+    width: 30px;
+    height: 113px;
+  }
+
+  .icons figure {
+    height: 36.6px;
+  }
+
+  .card_detail {
+    margin-top: 13.9px;
+  }
+
+  .star {
+    margin-right: 4px;
+  }
+
+
+}
+
