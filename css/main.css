@@ -112,7 +112,7 @@ nav {
   height: 55px;
   display: flex;
   flex-direction: row;
-  width: 79%;
+  width: 85%;
   margin: auto;
   background: white;
   margin: 0px auto 2px auto;
@@ -543,7 +543,7 @@ nav {
 
 /* SECTION NEW PRODUCTS */
 .section2 {
-  width: 82%;
+  width: 85%;
   margin: 62px auto 62px auto;
 }
 
@@ -763,7 +763,7 @@ nav {
 
 /* SECTION 3 */
 .section3 {
-  width: 80%;
+  width: 85%;
   margin: 139px auto 62px auto;
 }
 
@@ -955,7 +955,7 @@ nav {
 
 /* SECTION 4 */
 .section4 {
-  width: 80%;
+  width: 85%;
   margin: auto;
   margin-top: 170px;
 }
@@ -1240,7 +1240,7 @@ nav {
 
 /* SECTION 6 */
 .section6 {
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
@@ -1256,9 +1256,10 @@ nav {
 
 .grid_section6 {
   display: grid;
-  width: 93%;
+  width: 100%;
   grid-template-columns: repeat(3, 296px);
-  grid-template-rows: repeat(2, 233px);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 116px;
   justify-content: space-between;
   grid-row-gap: 60px;
   margin-bottom: 57px;
@@ -1397,7 +1398,7 @@ nav {
 /* SECTION 8 */
 
 .section8 {
-  width: 80%;
+  width: 85%;
   margin: 101px auto 111px auto;
 }
 
@@ -1405,7 +1406,7 @@ nav {
   display: grid;
   grid-template-columns: repeat(3, 355px);
   grid-template-rows: 254px;
-  grid-column-gap: 42px;
+  justify-content: space-between;
 }
 
 /* CARD1 */
@@ -1572,7 +1573,7 @@ nav {
 /* SECTION 9 */
 
 .section9 {
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
@@ -1588,17 +1589,19 @@ nav {
 }
 
 .grilla_9 {
-  display: grid;
-  grid-template-columns: repeat(3, 367px);
-  grid-template-rows: 529px;
-  grid-column-gap: 38px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   margin-bottom: 158px;
 }
 
 .card_section9 {
+  width: 30%;
   border-radius: 5px;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
+  height: 100%;
 }
 
 .contenedor_iamgen_section9 img {
