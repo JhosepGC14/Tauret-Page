@@ -1256,7 +1256,7 @@ nav {
 
 .grid_section6 {
   display: grid;
-  width: 100%;
+  width: 90%;
   grid-template-columns: repeat(3, 296px);
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 116px;
