@@ -79,6 +79,11 @@ header {
   color: #c1c1c1;
   font-size: 10px;
 }
+
+.btn_responsive2 {
+  display: none;
+}
+
 .container_logo input:focus {
   border-radius: 50px 0px 0px 50px;
 }
@@ -163,7 +168,7 @@ nav {
   position: absolute;
   top: 55px;
   left: 0px;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.8);
   color: #333333;
   font-size: 14px;
   padding: 0px 23px 0px 27px;
@@ -420,7 +425,7 @@ nav {
   margin-left: 0px;
   right: -95%;
   top: 65%;
-  background: white;
+  background: #e0d0df;
 }
 
 .sub_menu ul li {
@@ -448,7 +453,7 @@ nav {
 }
 
 .triangulo {
-  background: white;
+  background: rgba(255, 255, 255, 0.8);
   display: none;
   position: absolute;
   width: 30px;
@@ -462,6 +467,7 @@ nav {
 .content_logo img {
   display: block;
   margin-left: 30px;
+  width: 106px;
 }
 
 .container_hamburger_rwd {
@@ -920,7 +926,6 @@ nav {
   display: block;
   margin: 0px auto 19px auto;
   object-fit: contain;
-  height: 259px;
 }
 
 .card_home_text {
@@ -1282,7 +1287,7 @@ nav {
 .grid_section6 {
   display: grid;
   width: 90%;
-  grid-template-columns: repeat(3, 296px);
+  grid-template-columns: repeat(auto-fill, minmax(296px, 1fr));
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 116px;
   justify-content: space-between;
@@ -1445,7 +1450,7 @@ nav {
 .grid_section7 {
   display: grid;
   width: 90%;
-  grid-template-columns: repeat(3, 296px);
+  grid-template-columns: repeat(auto-fill, minmax(296px, 1fr));
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 116px;
   justify-content: space-between;
