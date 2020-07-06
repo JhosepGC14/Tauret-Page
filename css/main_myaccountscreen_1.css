@@ -12,7 +12,7 @@
   grid-column-gap: 38.1px;
   grid-row-gap: 40px;
   width: 90%;
-  margin: 52.7px auto 53.9px;
+  margin: 4% auto 4%;
 }
 
 .card {
@@ -23,7 +23,7 @@
 
 .name {
   width: 100%;
-  margin: 30.9px auto 0px;
+  margin: 8.5% auto 0px;
 }
 
 .name h2 {
@@ -51,8 +51,8 @@
   right: 0px;
   display: flex;
   flex-direction: column;
-  width: 68px;
-  height: 255px;
+  width: 19%;
+  height: 75%;
   background-color: #ffffff;
   box-shadow: 0 3px 20px 0 rgba(191, 191, 191, 0.16);
 }
@@ -64,6 +64,10 @@
   justify-content: center;
 }
 
+.icons img {
+  width: 23%;
+}
+
 .unique {
   border-bottom: 1px solid #f7f8fa;
   border-top: 1px solid #f7f8fa;
@@ -73,18 +77,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 17.7px;
+  margin-top: 4.5%;
 }
 
-.star {
-  margin-right: 9.2px;
+.all_star {
+  width: 48%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .all_price {
-  width: 148px;
+  width: 41%;
   display: flex;
   justify-content: space-around;
-  margin: 17px auto 21px;
+  margin: 4.5% auto 6%;
 }
 
 .skd {
@@ -116,59 +122,107 @@
   font-size: 13px;
   text-align: center;
   border-radius: 50px;
-  width: 208px;
+  width: 58%;
   height: 41px;
   border: 0px;
-  margin-bottom: 33px;
+  margin-bottom: 9.5%;
 }
 
 .card_detail button:focus {
   outline: none;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE WEB DESIGN */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width:1200px) {
+  .name h2 {
+    font-size: 19px;
+  }
+
+  .all_price {
+    width: 46%;
+  }
+
+}
+
+@media screen and (max-width:1080px) {
+  .name h2 {
+    font-size: 17px;
+  }
+  
+  .skd {
+    font-size: 13px;
+  }
+  
+  .all_star{
+    width: 51%;
+  }
+
+  .all_price span {
+    font-size: 20px;
+  }
+  
+  .card_detail button {
+    font-size: 12px;
+    height: 36px;
+  }
+}
+
+@media screen and (max-width:960px) {
+  .name h2 {
+    font-size: 15px;
+  }
+  
+  .all_star{
+    width: 57%;
+  }
+  
+  .all_price span {
+    font-size: 17px;
+  }
+  
+  .card_detail button {
+    height: 34px;
+  }
+}
+
+
+
+@media screen and (max-width: 360px) {
   .all_cards {
-    grid-template-columns: repeat(2, 160px);
-    grid-template-rows: repeat(3, 267px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 15.4px;
     grid-row-gap: 4px;
-    margin: 38px 20px 138px;
+    
   }
-
-  .card {
-    width: 160px;
-    height: 267px;
-  }
-
-  .name {
-    margin: 11.3px auto 0px;
-  }
-
+  
   .name h2 {
     font-size: 9px;
     line-height: 1.22;
   }
-
-  .photo {
-    height: 151.3px;
-  }
-
-  .icons {
-    width: 30px;
-    height: 113px;
-  }
-
+  
   .icons figure {
     height: 36.6px;
   }
 
-  .card_detail {
-    margin-top: 13.9px;
+  .star {
+    width: 10%;
   }
 
-  .star {
-    margin-right: 4px;
+  .skd {
+    font-size: 9px;
   }
+  
+  .all_price span {
+    font-size: 9px;
+  }
+  
+  .card_detail button {
+    font-size: 8px;
+    height: 20px;
+  }
+  }
+  
+  
 }
