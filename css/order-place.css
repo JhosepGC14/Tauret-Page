@@ -134,6 +134,8 @@ tbody {
   font-weight: 500;
 }
 
+/* RESPONSIVE WEB DESIGN */
+
 @media screen and (max-width:1200px) {
     .all_title h2 {
         font-size: 27.5px;
@@ -273,8 +275,6 @@ tbody {
       text-decoration: line-through;
       align-self: flex-end;
     }
-
-
 }
 
 @media screen and (max-width:480px) {
