@@ -1,21 +1,21 @@
 /* ORDER PLACE */
 .all {
-    width: 95%;
-    margin: auto;
+  width: 95%;
+  margin: auto;
 }
 
 .all_title {
-    width: 20%;
-    margin: 85px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 20%;
+  margin: 85px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .all_title h2 {
-    color: #63165f;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 12%;
+  color: #63165f;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 12%;
 }
 
 /* TABLE */
@@ -24,10 +24,10 @@
 }
 
 .table_normal {
-    width: 90%;
-    margin: 0px auto 25px;
-    border-collapse: separate;
-    border-spacing: 0px 17px;
+  width: 89%;
+  margin: 0px auto 25px;
+  border-collapse: separate;
+  border-spacing: 0px 17px;
 }
 
 .text_gray {
@@ -53,7 +53,7 @@ tbody {
 }
 
 .table_name {
-    width: 29%;
+  width: 29%;
 }
 
 .table_name h2 {
@@ -77,7 +77,7 @@ tbody {
 }
 
 .table_price div {
-    display: flex;
+  display: flex;
 }
 
 .table_price h3 {
@@ -104,15 +104,15 @@ tbody {
 }
 
 .foot {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .foot div {
-    width: 74%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+  width: 74%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
 }
 
 .foot p {
@@ -135,154 +135,154 @@ tbody {
 
 /* RESPONSIVE WEB DESIGN */
 
-@media screen and (max-width:1200px) {
-    .all_title h2 {
-        font-size: 27.5px;
-    }
+@media screen and (max-width: 1200px) {
+  .all_title h2 {
+    font-size: 27.5px;
+  }
 }
 
-@media screen and (max-width:1080px) {
-    .all_title h2 {
-        font-size: 24.5px;
-    }
+@media screen and (max-width: 1080px) {
+  .all_title h2 {
+    font-size: 24.5px;
+  }
 }
 
-@media screen and (max-width:960px) {
-    .all_title h2 {
-        font-size: 22.5px;
-    }
+@media screen and (max-width: 960px) {
+  .all_title h2 {
+    font-size: 22.5px;
+  }
 }
 
-@media screen and (max-width: 540px){
-    .all {
-      width: 93%;
-    }
+@media screen and (max-width: 540px) {
+  .all {
+    width: 93%;
+  }
 
-    .all_title {
-      width: 90%;
-      margin: 42px auto 0px;
-      display: block;
-    }
+  .all_title {
+    width: 90%;
+    margin: 42px auto 0px;
+    display: block;
+  }
 
-    .all_title h2 {
-        color: #2e2e2e;
-        font-size: 20px;
-        margin: 0px;
-    }
+  .all_title h2 {
+    color: #2e2e2e;
+    font-size: 20px;
+    margin: 0px;
+  }
 
-    .all_title img {
-        display: none;
-    }
+  .all_title img {
+    display: none;
+  }
 
-    .table_normal {
-        display: none;
-    }
+  .table_normal {
+    display: none;
+  }
 
-    .table_rwd {
-      display: block;
-      width: 90%;
-      margin: 33px auto 25px;
-      border-collapse: separate;
-      border-spacing: 0px 10px;
-    }
+  .table_rwd {
+    display: block;
+    width: 90%;
+    margin: 33px auto 25px;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+  }
 
-    .all_total_price {
-      display: flex;
-      justify-content: flex-end;
-    }
+  .all_total_price {
+    display: flex;
+    justify-content: flex-end;
+  }
 
-    .total_price {
-      width: 60%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+  .total_price {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .total_price p {
-      margin: 0px;
-      color: #a9a9a9;
-      font-size: 14px;
-      line-height: 1.14;
-      font-weight: normal;
-    }
-    
-    .total_price span {
-      color: #63165f;
-      font-size: 22px;
-      font-weight: 500;
-      line-height: 1.14;
-    }
+  .total_price p {
+    margin: 0px;
+    color: #a9a9a9;
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: normal;
+  }
 
-    .photo {
-      width: 46%;
-    }
+  .total_price span {
+    color: #63165f;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.14;
+  }
 
-    .photo img {
-      width: 97%;
-    }
+  .photo {
+    width: 46%;
+  }
 
-    .detail {
-      margin: 20px 0px;
-      display: flex;
-      flex-direction: column;
-    }
+  .photo img {
+    width: 97%;
+  }
 
-    .detail p {
-      color: #2e2e2e;
-      font-size: 12px;
-      line-height: 1.17;
-      margin: 0px;
-    }
+  .detail {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .detail_name {
-      display: flex;
-      flex-direction: column;
-      margin: 6px 0px;
-    }
-    
-    .detail_name h2 {
-      color: #2e2e2e;
-      font-size: 16px;
-      line-height: 1.19;
-      font-weight: 500;
-      margin-bottom: 5px;
-    }
-    
-    .detail_name span {
-      color: #2e2e2e;
-      font-size: 12px;
-      line-height: 1.17;
-    }
+  .detail p {
+    color: #2e2e2e;
+    font-size: 12px;
+    line-height: 1.17;
+    margin: 0px;
+  }
 
-    .detail_price {
-      display: flex;
-    }
+  .detail_name {
+    display: flex;
+    flex-direction: column;
+    margin: 6px 0px;
+  }
 
-    .detail_price h3 {
-      color: #2e2e2e;
-      line-height: 1.17;
-      letter-spacing: normal;
-      font-weight: 500;
-      font-size: 18px;
-      margin: 0px 8px 0px 0px;
-    }
+  .detail_name h2 {
+    color: #2e2e2e;
+    font-size: 16px;
+    line-height: 1.19;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
 
-    .detail_price span {
-      color: #c1c1c1;
-      line-height: 1.14;
-      font-size: 14px;
-      text-decoration: line-through;
-      align-self: flex-end;
-    }
+  .detail_name span {
+    color: #2e2e2e;
+    font-size: 12px;
+    line-height: 1.17;
+  }
+
+  .detail_price {
+    display: flex;
+  }
+
+  .detail_price h3 {
+    color: #2e2e2e;
+    line-height: 1.17;
+    letter-spacing: normal;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0px 8px 0px 0px;
+  }
+
+  .detail_price span {
+    color: #c1c1c1;
+    line-height: 1.14;
+    font-size: 14px;
+    text-decoration: line-through;
+    align-self: flex-end;
+  }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width: 480px) {
   .total_price {
     width: 65%;
   }
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width: 360px) {
   .total_price {
     width: 88%;
   }

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/pushbar.css" />
   <link rel="stylesheet" href="/css/main.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
     integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
@@ -25,7 +26,7 @@
 
 <body>
   <!-- HEADER -->
-  <header>
+  <header class="pushbar_main_content">
     <div class=" d-flex  justify-content-between container_header">
       <div>
         <p class="pl-5 w-70" style=" font-size: 10px;">Welcome to WorldWide Electronis Store</p>
@@ -43,10 +44,10 @@
     </div>
     <div class="w-100 contenedor">
       <div class="container_logo d-flex justify-content-around align-items-center">
-        <div class="container_hamburger_rwd"><button class="content_hamburguer"><img src="/img/icons/hamburguer.svg"
-              alt=""></button></div>
+        <div class="container_hamburger_rwd"><button class="content_hamburguer" data-pushbar-target="pushbar-menu"><img
+              src="/img/icons/hamburguer.svg" alt=""></button></div>
         <div class="ml-5 content_logo">
-          <a><img class="img-fluid" src="./img/logo.png" alt="logo"></a>
+          <a href="/"><img class="img-fluid" src="./img/logo.png" alt="logo"></a>
         </div>
         <div class="input-group m-3 d-flex justify-content-center inputsearch">
           <input type="text" aria-label="Recipient's username" class="p-3 pl-4" placeholder="Search for Products...">
@@ -114,7 +115,7 @@
           </div>
           <div class="from_search">
             <input type="text" placeholder="Search Products">
-            <button type="submit">Search</button>
+            <button type="submit"></button>
           </div>
         </div>
         <div class="containermenu">
@@ -155,7 +156,6 @@
             </ul>
           </div>
         </div>
-
         <div class="menu_container">
           <ul>
             <li><a href="">Home</a></li>
@@ -167,7 +167,48 @@
       </div>
     </nav>
   </header>
-  <main>
+  <!-- PUSHBAR -->
+  <div data-pushbar-id="pushbar-menu" data-pushbar-direction="left" class="pushbar-menu">
+    <div class="btn_close">
+      <p>All Categories</p>
+
+      <span data-pushbar-close><i class="fas fa-times"></i></span>
+    </div>
+    <nav>
+      <div class="category_rwd">
+        <ul>
+          <li><a href="">Accesorios</a> <i class="fas fa-chevron-down"></i></i></li>
+          <li><a href="">Almacenamiento</a><i class="fas fa-chevron-down"></i></i></li>
+          <li><a href="">Componentes</a><i class="fas fa-chevron-down"></i></i></li>
+          <li><a href="">Computadoras</a><i class="fas fa-chevron-down"></i></i></li>
+          <li><a href="">Dia Sin Iva</a><i class="fas fa-chevron-down"></i></i></li>
+          <li><a href="">Gamers</a><i class="fas fa-chevron-down"></i></i></li>
+          <li><a href="">Loto Gaming </a><i class="fas fa-chevron-down"></i></i></li>
+          <li><a href="">Pantallas</a>
+            <input type="checkbox" id="checkMenu">
+            <label for="checkMenu" class="checkbtnMenu">
+              <i class="fas fa-chevron-down"></i></i>
+            </label></i>
+            <div class="triangulo"></div>
+            <div class=" sub_menu">
+              <div>
+                <ul>
+                  <li><a href="">Monitores</a> </li>
+                  <li><a href="">Monitores Gamers</a></li>
+                  <li><a href="">Monitores Profesionales</a></li>
+                  <li><a href="">Video Bean</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li><a href="">Portatiles</a><i class="fas fa-chevron-down"></i></i></li>
+          <li><a href="">Promos Semanales</a><i class="fas fa-chevron-down"></i></i></li>
+          <li><a href="">Redes</a><i class="fas fa-chevron-down"></i></i></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <main class="pushbar_main_content">
     <!-- SECTION 1 -->
     <section class="init">
       <div class="grilla_init">
@@ -897,7 +938,7 @@
               <i class="fas fa-star" style="color: #666666;"></i>
               <span>(267)</span>
             </div>
-            <div class="price_section6">
+            <div class="price_section7">
               <p>$13.00</p><span>$31.00</span>
             </div>
             <div>
@@ -908,13 +949,13 @@
             </div>
           </div>
         </div>
-        <div class="card_section6">
+        <div class="card_section7">
           <div class="contenedor_img"><img src="./img/cellphone_card.png" alt="audifonos"></div>
-          <div class="container_info_6">
+          <div class="container_info_7">
             <div class="discount_section6">
               <span>20% OFF</span>
             </div>
-            <div class="content_text_6">
+            <div class="content_text_7">
               <p>Beats Solo2 On <br>Ear HeadPhones - Black</p>
             </div>
             <div class="calification">
@@ -925,7 +966,7 @@
               <i class="fas fa-star" style="color: #666666;"></i>
               <span>(267)</span>
             </div>
-            <div class="price_section6">
+            <div class="price_section7">
               <p>$13.00</p><span>$31.00</span>
             </div>
             <div>
@@ -936,13 +977,13 @@
             </div>
           </div>
         </div>
-        <div class="card_section6">
+        <div class="card_section7">
           <div class="contenedor_img"><img src="./img/nexus.png" alt="audifonos"></div>
-          <div class="container_info_6">
-            <div class="discount_section6">
+          <div class="container_info_7">
+            <div class="discount_section7">
               <span>20% OFF</span>
             </div>
-            <div class="content_text_6">
+            <div class="content_text_7">
               <p>Beats Solo2 On <br>Ear HeadPhones - Black</p>
             </div>
             <div class="calification">
@@ -953,7 +994,7 @@
               <i class="fas fa-star" style="color: #666666;"></i>
               <span>(267)</span>
             </div>
-            <div class="price_section6">
+            <div class="price_section7">
               <p>$13.00</p><span>$31.00</span>
             </div>
             <div>
@@ -964,13 +1005,13 @@
             </div>
           </div>
         </div>
-        <div class="card_section6">
+        <div class="card_section7">
           <div class="contenedor_img"><img src="./img/card_headphone.png" alt="audifonos"></div>
-          <div class="container_info_6">
-            <div class="discount_section6">
+          <div class="container_info_7">
+            <div class="discount_section7">
               <span>20% OFF</span>
             </div>
-            <div class="content_text_6">
+            <div class="content_text_7">
               <p>Beats Solo2 On <br>Ear HeadPhones - Black</p>
             </div>
             <div class="calification">
@@ -981,7 +1022,7 @@
               <i class="fas fa-star" style="color: #666666;"></i>
               <span>(267)</span>
             </div>
-            <div class="price_section6">
+            <div class="price_section7">
               <p>$13.00</p><span>$31.00</span>
             </div>
             <div>
@@ -992,13 +1033,13 @@
             </div>
           </div>
         </div>
-        <div class="card_section6">
+        <div class="card_section7">
           <div class="contenedor_img"><img src="./img/buffer_bluethoot_card.png" alt="audifonos"></div>
-          <div class="container_info_6">
-            <div class="discount_section6">
+          <div class="container_info_7">
+            <div class="discount_section7">
               <span>20% OFF</span>
             </div>
-            <div class="content_text_6">
+            <div class="content_text_7">
               <p>Beats Solo2 On <br>Ear HeadPhones - Black</p>
             </div>
             <div class="calification">
@@ -1009,7 +1050,7 @@
               <i class="fas fa-star" style="color: #666666;"></i>
               <span>(267)</span>
             </div>
-            <div class="price_section6">
+            <div class="price_section7">
               <p>$13.00</p><span>$31.00</span>
             </div>
             <div>
@@ -1124,72 +1165,79 @@
         </div>
       </div>
     </article>
-    <footer class="footer">
-      <div class="container">
-        <div class="row py-5">
-          <div class="col-lg-3 col-12 text-center">
-            <img class="img-fluid" src="img/logo.png">
-            <ul class="redes-sociales">
-              <li>
-                <i class="fab fa-facebook-f"></i>
-              </li>
-              <li>
-                <i class="fab fa-twitter"></i>
-              </li>
-              <li>
-                <i class="fab fa-youtube"></i>
-              </li>
-              <li>
-                <i class="fab fa-pinterest-p"></i>
-              </li>
-              <li>
-                <i class="fab fa-pinterest-p"></i>
-              </li>
-            </ul>
-            <div class="text-reserved">
-              <p>© 2019 Shopee ® All Right Reserved</p>
-            </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="row py-5">
+        <div class="col-lg-3 col-12 text-center">
+          <img class="img-fluid" src="img/logo.png">
+          <ul class="redes-sociales">
+            <li>
+              <i class="fab fa-facebook-f"></i>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+            </li>
+            <li>
+              <i class="fab fa-youtube"></i>
+            </li>
+            <li>
+              <i class="fab fa-pinterest-p"></i>
+            </li>
+            <li>
+              <i class="fab fa-pinterest-p"></i>
+            </li>
+          </ul>
+          <div class="text-reserved">
+            <p>© 2019 Shopee ® All Right Reserved</p>
           </div>
+        </div>
 
-          <div class="col-lg-2 col-6">
-            <h3>About</h3>
-            <ul>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Careers</a></li>
-              <li><a href="">International</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-6">
-            <h3>Support</h3>
-            <ul>
-              <li><a href="">Contact</a></li>
-              <li><a href="">Returns</a></li>
-              <li><a href="">Warranty</a></li>
-              <li><a href="">Help</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-6">
-            <h3>Legal</h3>
-            <ul>
-              <li><a href="">Privacy</a></li>
-              <li><a href="">Terms</a></li>
-              <li><a href="">Patents</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-6">
-            <h3>Other</h3>
-            <ul>
-              <li><a href="">Account</a></li>
-              <li><a href="">Newsletter</a></li>
-            </ul>
-            <div class="metodo-pago-img mt-5">
-              <img class="img-fluid" src="img/metodo-pago.png">
-            </div>
+        <div class="col-lg-2 col-6">
+          <h3>About</h3>
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">International</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h3>Support</h3>
+          <ul>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Returns</a></li>
+            <li><a href="">Warranty</a></li>
+            <li><a href="">Help</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Patents</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <h3>Other</h3>
+          <ul>
+            <li><a href="">Account</a></li>
+            <li><a href="">Newsletter</a></li>
+          </ul>
+          <div class="metodo-pago-img mt-5">
+            <img class="img-fluid" src="img/metodo-pago.png">
           </div>
         </div>
       </div>
-    </footer>
-  </main>
+    </div>
+  </footer>
+  <script src="./js/pushbar.js"></script>
+  <script type="text/javascript">
+    const pushbar = new Pushbar({
+      blur: false,
+      overlay: false,
+    });
+  </script>
 </body>
 
 </html>
