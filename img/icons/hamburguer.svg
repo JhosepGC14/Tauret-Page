@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="17" viewBox="0 0 24 17">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#63165f}
+        </style>
+    </defs>
+    <g id="prefix__Grupo_2" data-name="Grupo 2" transform="translate(-18 -32)">
+        <rect id="prefix__Rectángulo_2" width="13" height="3" class="prefix__cls-1" data-name="Rectángulo 2" rx="1.5" transform="translate(18 39)"/>
+        <rect id="prefix__Rectángulo_3" width="24" height="3" class="prefix__cls-1" data-name="Rectángulo 3" rx="1.5" transform="translate(18 32)"/>
+        <rect id="prefix__Rectángulo_4" width="20" height="3" class="prefix__cls-1" data-name="Rectángulo 4" rx="1.5" transform="translate(18 46)"/>
+    </g>
+</svg>
