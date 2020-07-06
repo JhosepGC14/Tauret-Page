@@ -50,6 +50,10 @@ header {
   width: 60%;
 }
 
+.card_home img {
+  max-width: 50%;
+}
+
 .fa-heart,
 .fa-user {
   margin-right: 44px;
@@ -846,7 +850,7 @@ nav {
 .grid_section3 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 390px);
+  grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   margin-top: 50px;
@@ -2420,9 +2424,14 @@ nav {
     width: 50%;
     margin: auto;
   }
+
   .content_footer {
+    margin-top: 0px !important;
     width: 50% !important;
-    margin: auto !important;
+  }
+
+  .content_footer h3 {
+    font-size: 20px;
   }
 
   .flex_footer {
