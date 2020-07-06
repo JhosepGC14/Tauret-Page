@@ -3,6 +3,8 @@
 
 <head>
   <title>.::TAURET HOMEPAGE::.</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
     integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
     crossorigin="anonymous"></script>
@@ -150,13 +152,14 @@
       </div>
     </nav>
   </header>
+  <!-- ORDER-PLACE -->
   <main>
     <div class="all">
       <div class="all_title">
         <h2>Order Confirmed</h2>
         <img src="./img/order-place/Icon_gift.png" alt="">
       </div>
-      <table>
+      <table class="table_normal">
         <thead>
           <tr>
             <th class="text_black">Purchased</th>
@@ -173,8 +176,10 @@
               <span>Black</span>
             </td>
             <td class="table_price">
-              <h3>99$</h3>
-              <span>129$</span>
+              <div>
+                <h3>99$</h3>
+                <span>129$</span>
+              </div>
             </td>
             <td class="table_order">0002458961</td>
           </tr>
@@ -185,8 +190,10 @@
               <span>Space Gray</span>
             </td>
             <td class="table_price">
-              <h3>1899$</h3>
-              <span>2149$</span>
+              <div>
+                <h3>1899$</h3>
+                <span>2149$</span>
+              </div>
             </td>
             <td class="table_order">0005458239</td>
           </tr>
@@ -197,8 +204,10 @@
               <span>Bluetooth</span>
             </td>
             <td class="table_price">
-              <h3>189$</h3>
-              <span>245$</span>
+              <div>
+                <h3>189$</h3>
+                <span>245$</span>
+              </div>
             </td>
             <td class="table_order">0006458242</th>
           </tr>
@@ -209,11 +218,77 @@
             <th></th>
             <th></th>
             <th class="foot">
-              <p>Total Price :</p>
-              <span>2192$</span>
+              <div>
+                <p>Total Price :</p>
+                <span>2192$</span>
+              </div>
             </th>
           </tr>
         </tfoot>
+      </table>
+      <!-- TABLE RWD -->
+      <table class="table_rwd">
+        <thead>
+          <tr>
+            <th>Purchased</th>
+            <th class="all_total_price">
+              <div class="total_price">
+                <p>Total Price:</p>
+                <span>2192$</span>
+              </div>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="photo">
+              <img src="./img/order-place/Wireless.png" alt="">
+            </td>
+            <td class="detail">
+              <p>Order No.: 0002458961</p>
+              <div class="detail_name">
+                <h2>Solo 3 Wireless</h2>
+                <span>Black</span>
+              </div>
+              <div class="detail_price">
+                <h3>99$</h3>
+                <span>129$</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="photo">
+              <img src="./img/order-place/Laptop.png" alt="">
+            </td>
+            <td class="detail">
+              <p>Order No.: 0005458239</p>
+              <div class="detail_name">
+                <h2>MacBook Pro 15"</h2>
+                <span>Space Gray</span>
+              </div>
+              <div class="detail_price">
+                <h3>1899$</h3>
+                <span>2149$</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td class="photo">
+              <img src="./img/order-place/Bluetooth.png" alt="">
+            </td>
+            <td class="detail">
+              <p>Order No.: 0006458242</p>
+              <div class="detail_name">
+                <h2>Pill + Bluetooth Speaker</h2>
+                <span>Bluetooth</span>
+              </div>
+              <div class="detail_price">
+                <h3>189$</h3>
+                <span>245$</span>
+              </div>
+            </td>
+          </tr> 
+        </tbody>
       </table>
     </div>
 
@@ -304,5 +379,4 @@
     </footer>
   </main>
 </body>
-
 </html>
