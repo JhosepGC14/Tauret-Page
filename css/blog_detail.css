@@ -331,6 +331,10 @@ aside h3 {
     margin: auto;
   }
 
+  .blog_content_img {
+    background-position: center;
+  }
+
   .blog_section2 aside {
     display: none;
   }
