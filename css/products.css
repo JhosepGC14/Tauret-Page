@@ -339,7 +339,7 @@ input[type="range"]::-webkit-slider-thumb {
   border: solid 1px #e5e5e5;
   background-color: transparent;
   justify-content: space-between;
-  padding: 9px 24px;
+  padding: 9px 8px 9px 24px;
 }
 
 .content_filter_options {
@@ -358,6 +358,10 @@ input[type="range"]::-webkit-slider-thumb {
   text-align: center;
   color: #8a8a8a;
   margin-right: 39px;
+}
+
+.btn_filter_rwd {
+  display: none;
 }
 
 .content_select span {
@@ -519,10 +523,39 @@ input[type="range"]::-webkit-slider-thumb {
   display: none;
 }
 
+.content_filter_buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.content_filter_buttons button {
+  width: 33px;
+  height: 33px;
+  border-radius: 6px;
+  border: solid 1px #e5e5e5;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 6px;
+}
+
+.content_filter_buttons button:last-of-type {
+  margin-right: 0px;
+}
+
+.btn_filter_rwd {
+  display: none !important;
+}
+
 /* RESPONSIVE */
 @media (max-width: 1440px) {
   .all_cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .btn_filter_rwd {
+    display: none !important;
   }
 }
 
@@ -533,6 +566,10 @@ input[type="range"]::-webkit-slider-thumb {
 
   .all_star {
     width: 60%;
+  }
+
+  .btn_filter_rwd {
+    display: none !important;
   }
 }
 
@@ -579,6 +616,10 @@ input[type="range"]::-webkit-slider-thumb {
 
   .card_detail button {
     width: 115px;
+  }
+
+  .btn_filter_rwd {
+    display: none !important;
   }
 }
 
@@ -636,11 +677,19 @@ input[type="range"]::-webkit-slider-thumb {
   .dropdown-divider {
     width: 95%;
   }
+
+  .btn_filter_rwd {
+    display: none !important;
+  }
 }
 
 @media (max-width: 760px) {
   .products_section2 aside {
     display: none;
+  }
+
+  .btn_filter_rwd {
+    display: none !important;
   }
 
   .products_section2 .products {
@@ -683,6 +732,27 @@ input[type="range"]::-webkit-slider-thumb {
 
   .all {
     margin: 0px auto 100px;
+  }
+
+  .btn_desktop {
+    display: none !important;
+  }
+
+  .content_filter_buttons .btn_filter_rwd {
+    display: block;
+    width: 60px;
+    height: 30px;
+    border-radius: 4px;
+    border: solid 1px #f2f2f2;
+    background-color: #ffffff;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #8a8a8a;
   }
 }
 
