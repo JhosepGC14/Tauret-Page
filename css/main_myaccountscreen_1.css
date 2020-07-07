@@ -1,8 +1,52 @@
+/* SECTION */
+
+.blog_section {
+  width: 100%;
+}
+
+.blog_content_img {
+  background-image: url(/img/banner_principal.png);
+  background-size: cover;
+  width: 100%;
+  height: 325px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+}
+
+.blog_content_info {
+  width: 85%;
+  margin: 0px auto;
+  height: auto;
+}
+
+.blog_content_info h1 {
+  font-size: 44px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #63165f;
+}
+
+.blog_content_info p {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: 0.36px;
+  text-align: left;
+  color: #2c2c2c;
+}
+
 /* CARDS */
 
 .all {
   width: 95%;
-  margin: auto;
+  margin: 4% auto;
 }
 
 .all_cards {
@@ -12,7 +56,7 @@
   grid-column-gap: 38.1px;
   grid-row-gap: 40px;
   width: 90%;
-  margin: 4% auto 4%;
+  margin: auto;
 }
 
 .card {
@@ -41,7 +85,7 @@
 
 .photo {
   width: 100%;
-  /* height: 341.6px; */
+  height: 338.6px;
   object-fit: contain;
 }
 
@@ -62,10 +106,11 @@
   height: 85px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .icons img {
-  width: 23%;
+  width: 35%;
 }
 
 .unique {
@@ -135,6 +180,22 @@
 /* RESPONSIVE WEB DESIGN */
 
 @media screen and (max-width:1200px) {
+  .blog_content_img {
+    height: 257px;
+  }
+
+  .blog_content_info h1 {
+    font-size: 42px;
+  }
+
+  .blog_content_info p {
+    font-size: 14px;
+  }
+
+  .photo {
+    height: 300px;
+  }
+
   .name h2 {
     font-size: 19px;
   }
@@ -142,10 +203,25 @@
   .all_price {
     width: 46%;
   }
-
 }
 
 @media screen and (max-width:1080px) {
+  .blog_content_img {
+    height: 231px;
+  }
+
+  .blog_content_info h1 {
+    font-size: 40px;
+  }
+  
+  .blog_content_info p {
+    font-size: 13px;
+  }
+
+  .photo {
+    height: 266px;
+  }
+
   .name h2 {
     font-size: 17px;
   }
@@ -169,6 +245,22 @@
 }
 
 @media screen and (max-width:960px) {
+  .blog_content_img {
+    height: 206px;
+  }
+  
+  .blog_content_info h1 {
+    font-size: 38px;
+  }
+  
+  .blog_content_info p {
+    font-size: 12px;
+  }
+
+  .photo {
+    height: 233px;
+  }
+
   .name h2 {
     font-size: 15px;
   }
@@ -186,8 +278,23 @@
   }
 }
 
-
 @media screen and (max-width:760px) {
+  .blog_content_img {
+    height: 163px;
+  }
+
+  .blog_content_info h1 {
+    font-size: 30px;
+  }
+  
+  .blog_content_info p {
+    font-size: 11px;
+  }
+
+  .photo{
+    height: 179px;
+  }
+
   .name h2 {
     font-size: 12px;
   }
@@ -214,13 +321,30 @@
   }
 }
 
+/* RESPONSIVE MOBIL */
 
 @media screen and (max-width:540px) {
+  .all {
+    margin: 8% auto 0%;
+  }
+
+  .blog_section {
+    display: none;
+  }
+
   .all_cards {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 5%;
-    grid-row-gap: 0.3%;
+    grid-row-gap: 0.7%;
+  }
+
+  .out {
+    display: none;
+  }
+
+  .photo {
+    height: 206px;
   }
 
   .name h2 {
@@ -256,6 +380,10 @@
 }
 
 @media screen and (max-width: 480px){ 
+  .photo {
+    height: 182px;
+  }
+
   .name h2 {
     font-size: 11px;
   }
@@ -270,9 +398,11 @@
   }
 }
 
-
 @media screen and (max-width: 360px) {
-  
+  .photo {
+    height: 136px;
+  }
+
   .name h2 {
     font-size: 9px;
     line-height: 1.22;
