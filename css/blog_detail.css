@@ -291,3 +291,73 @@ aside h3 {
   letter-spacing: normal;
   color: #ffffff;
 }
+
+@media (max-width: 1200px) {
+  .blog_section2 {
+    width: 95%;
+  }
+
+  .blog_section2 aside {
+    width: 27%;
+  }
+  .contenedor_blog {
+    width: 73%;
+  }
+}
+
+@media (max-width: 1080px) {
+  .blog_section2 aside {
+    width: 30%;
+  }
+
+  .contenedor_blog {
+    width: 70%;
+  }
+}
+
+@media (max-width: 960px) {
+  .contenedor_blog {
+    width: 64%;
+  }
+
+  .blog_section2 aside {
+    width: 35%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contenedor_blog {
+    width: 80%;
+    margin: auto;
+  }
+
+  .blog_section2 aside {
+    display: none;
+  }
+
+  .blog_section1 {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .blog_content_img {
+    height: 153px;
+  }
+}
+
+@media (max-width: 540px) {
+  .blog_content_img {
+    height: 113px;
+  }
+
+  .blog_content_info h1 {
+    font-size: 16px;
+  }
+  .blog_content_info p {
+    font-size: 10px;
+  }
+
+  .blog_content_img {
+    background-position: center;
+  }
+}

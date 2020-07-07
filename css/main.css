@@ -1069,6 +1069,10 @@ nav {
   vertical-align: middle;
 }
 
+.slider_section {
+  display: none;
+}
+
 .stars_section4 svg {
   margin-right: 5px;
 }
@@ -2420,6 +2424,21 @@ nav {
 }
 
 @media (max-width: 768px) {
+  .init {
+    display: none;
+  }
+
+  .carousel-indicators li {
+    width: 4px !important;
+    height: 5px !important;
+    border-radius: 50% !important;
+  }
+
+  .slider_section {
+    display: block;
+    background-color: #63165f;
+  }
+
   .info_footer {
     width: 50%;
     margin: auto;
@@ -2818,6 +2837,10 @@ nav {
 @media (max-width: 540px) {
   .content_list {
     width: 60.3%;
+  }
+
+  .sectionrwd {
+    display: block;
   }
 
   .section2_content_button {
@@ -3301,6 +3324,7 @@ nav {
   }
 
   .grilla_init {
+    width: 70%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     margin: 30px auto 30px auto;
