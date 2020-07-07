@@ -303,6 +303,9 @@ aside h3 {
   .contenedor_blog {
     width: 73%;
   }
+  .blog_content_img {
+    background-position: center;
+  }
 }
 
 @media (max-width: 1080px) {
@@ -313,6 +316,10 @@ aside h3 {
   .contenedor_blog {
     width: 70%;
   }
+
+  .blog_content_img {
+    background-position: center;
+  }
 }
 
 @media (max-width: 960px) {
@@ -322,6 +329,10 @@ aside h3 {
 
   .blog_section2 aside {
     width: 35%;
+  }
+
+  .blog_content_img {
+    background-position: center;
   }
 }
 
