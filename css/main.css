@@ -2374,7 +2374,7 @@ nav {
   }
 
   .container_logo {
-    width: 95%;
+    width: 90%;
   }
   .container_icon {
     width: 27%;
@@ -2426,6 +2426,10 @@ nav {
 @media (max-width: 768px) {
   .init {
     display: none;
+  }
+
+  .container_header {
+    display: none !important;
   }
 
   .carousel-indicators li {
@@ -3408,7 +3412,7 @@ nav {
   }
 
   .container_search_rwd {
-    width: 95%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -3624,7 +3628,7 @@ nav {
   }
 
   .container_search_rwd {
-    width: 95%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;
