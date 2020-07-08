@@ -30,7 +30,7 @@ header {
 }
 
 .content_up {
-  width: 21%;
+  width: auto;
   margin-right: 20px;
 }
 
@@ -111,7 +111,7 @@ header {
 
 .container_icon {
   display: flex;
-  width: 20%;
+  width: auto;
   justify-content: start;
   flex-wrap: wrap;
   align-items: center;
@@ -497,7 +497,7 @@ nav {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 200px 80px 1fr;
   margin-top: 65px;
-  margin-right: 58px;
+  margin-right: 130px;
 }
 
 .font_30 {
@@ -1144,7 +1144,9 @@ nav {
   grid-template-columns: repeat(3, 356px);
   grid-template-rows: 248px;
   grid-column-gap: 44px;
+  justify-content: space-between;
   margin-bottom: 73px;
+  width: 100%;
 }
 
 .card_section5 {
@@ -1278,7 +1280,7 @@ nav {
 
 /* SECTION 6 */
 .section6 {
-  width: 85%;
+  width: 84%;
   margin: auto;
 }
 
@@ -1294,14 +1296,13 @@ nav {
 
 .grid_section6 {
   display: grid;
-  width: 90%;
+  width: 95%;
   grid-template-columns: repeat(auto-fill, minmax(296px, 1fr));
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 116px;
   justify-content: space-between;
   grid-row-gap: 60px;
-  margin-bottom: 57px;
-  margin: auto;
+  margin: auto 0px 57px auto;
 }
 
 .card_section6 {
@@ -1441,7 +1442,7 @@ nav {
 
 /* SECTION 7 */
 .section7 {
-  width: 85%;
+  width: 84%;
   margin: auto;
 }
 
@@ -1457,14 +1458,14 @@ nav {
 
 .grid_section7 {
   display: grid;
-  width: 90%;
+  width: 95%;
   grid-template-columns: repeat(auto-fill, minmax(296px, 1fr));
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 116px;
   justify-content: space-between;
   grid-row-gap: 60px;
   margin-bottom: 57px;
-  margin: auto;
+  margin: auto 0px auto auto;
 }
 
 .card_section7 {
@@ -1608,6 +1609,8 @@ nav {
   grid-template-columns: repeat(3, 355px);
   grid-template-rows: 254px;
   justify-content: space-between;
+  margin: auto auto auto 0px;
+  width: 97%;
 }
 
 /* CARD1 */
@@ -1973,7 +1976,7 @@ nav {
 }
 
 .section5 {
-  width: 85%;
+  width: 84%;
   margin: auto;
   margin-top: 170px;
 }
@@ -2120,6 +2123,9 @@ nav {
   /* HEADER */
 
   /* SECTION 1 */
+  .grilla_init {
+    margin-right: 93px;
+  }
 
   /* SECTION 2 */
   .section2 {
@@ -2160,7 +2166,13 @@ nav {
 
   /* SECTION 5 */
   .grilla_5 {
-    grid-template-columns: repeat(3, 330px);
+    display: grid;
+    grid-template-columns: repeat(3, 356px);
+    grid-template-rows: 248px;
+    /* grid-column-gap: 44px; */
+    justify-content: space-between;
+    margin-bottom: 73px;
+    width: 99%;
   }
 
   /* SECTION 6 */
@@ -2204,7 +2216,7 @@ nav {
   }
 
   .container_icon {
-    width: 28%;
+    width: auto;
   }
 
   .container_cart {
@@ -2225,6 +2237,7 @@ nav {
 
   .grilla_init {
     margin-bottom: 65px;
+    width: 82%;
   }
 
   /* SECTION 2 */
@@ -2374,7 +2387,7 @@ nav {
   }
 
   .container_logo {
-    width: 95%;
+    width: 90%;
   }
   .container_icon {
     width: 27%;
@@ -2391,7 +2404,7 @@ nav {
 
   /* SECTION 1 */
   .grilla_init {
-    width: 88%;
+    width: 84%;
   }
 
   /* SECTION 2 */
@@ -2426,6 +2439,15 @@ nav {
 @media (max-width: 768px) {
   .init {
     display: none;
+  }
+
+  .grilla_init {
+    width: 84%;
+    margin: 50px auto;
+  }
+
+  .container_header {
+    display: none !important;
   }
 
   .carousel-indicators li {
@@ -2763,7 +2785,7 @@ nav {
   }
 
   .container_search_rwd {
-    width: 95%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -3243,7 +3265,7 @@ nav {
   }
 
   .container_search_rwd {
-    width: 95%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -3408,7 +3430,7 @@ nav {
   }
 
   .container_search_rwd {
-    width: 95%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -3624,7 +3646,7 @@ nav {
   }
 
   .container_search_rwd {
-    width: 95%;
+    width: 90%;
     margin: auto;
     display: flex;
     flex-direction: row;

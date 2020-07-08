@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.949" height="10.589" viewBox="0 0 14.949 10.589">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#8a8a8a}
+        </style>
+    </defs>
+    <g id="prefix__Grupo_1550" data-name="Grupo 1550" transform="translate(-1252.981 -568.161)">
+        <path id="prefix__Op_component_1" d="M1508.705 707v2.492h14.949V707zm14.326 1.869h-13.7v-1.246h13.7z" class="prefix__cls-1" data-name="Op component 1" transform="translate(-255.724 -138.838)"/>
+        <path id="prefix__Op_component_2" d="M1508.705 715.609h14.949v-2.492h-14.949zm.623-1.869h13.7v1.246h-13.7z" class="prefix__cls-1" data-name="Op component 2" transform="translate(-255.724 -140.908)"/>
+        <path id="prefix__Op_component_3" d="M1508.705 721.727h14.949v-2.491h-14.949zm.623-1.869h13.7v1.242h-13.7z" class="prefix__cls-1" data-name="Op component 3" transform="translate(-255.724 -142.977)"/>
+    </g>
+</svg>

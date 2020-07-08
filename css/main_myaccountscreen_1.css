@@ -110,8 +110,13 @@
 
 .icons img {
   width: 35%;
+  height: 98%;
 }
 
+.unique {
+  border-top: 0.8px solid rgba(196, 123, 91, 0.2);
+  border-bottom: 0.8px solid rgba(196, 123, 91, 0.2);
+}
 
 
 .card_detail {
