@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>TAURET (NOMBRE DE PANTALLA)</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bo.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.css">
+	<link rel="stylesheet" href="/css/slick.css">
+	<link rel="stylesheet" href="/css/slick-theme.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="./js/slick.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"
+		integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<header>
+		<div class=" d-flex  justify-content-between container_header">
+			<div>
+				<p class="pl-5 w-70" style=" font-size: 10px;">Welcome to WorldWide Electronis Store</p>
+			</div>
+			<div class="d-flex align-items-center content_up">
+				<div class="d-flex p-2 cart">
+					<i class="fas fa-shopping-cart" style="color:white;"></i>
+					<p>Shop</p>
+				</div>
+				<div class="d-flex p-2">
+					<i class="fas fa-user-circle"></i>
+					<p>My Account</p>
+				</div>
+			</div>
+		</div>
+		<div class="w-100 contenedor">
+			<div class="container_logo d-flex justify-content-around align-items-center">
+				<div class="ml-5 content_logo"><a><img src="./img/logo.png" alt="logo"></a></div>
+				<div class="input-group m-3 d-flex justify-content-center inputsearch">
+					<input type="text" aria-label="Recipient's username" class="p-3 pl-4" placeholder="Search for Products...">
+					<div class="input-group-append">
+						<button class="btn btn-outline-secondary button" type="button" id="button-addon2"><i style="color:white;"
+								class="fas fa-search"></i></button>
+					</div>
+				</div>
+				<div class="container_icon">
+					<i style="color: black; font-size: 25px" class="far fa-heart"></i>
+					<i style="color: black ; font-size: 25px" class="far fa-user"></i>
+					<div class="circle">
+						<input type="checkbox" id="checkCart">
+						<label for="checkCart" class="checkbtn">
+							<img src="./img/svg/shopping-basket-button.svg" alt="cart">
+						</label>
+						<div class="arrow"></div>
+						<span class="number">2</span>
+						<div class="container_cart card">
+							<div class="grid_container">
+								<div class="container2">
+									<div class="content_gray"><img src="/img/beat.png" class="image2" alt="audifonos"></div>
+									<div>
+										<p>Philips Hue 7W BR30</p>
+										<p class="text_red">$13.00</p>
+										<div class="container_counter">
+											<button class="button_counter">-</button>
+											<input class="input_counter" type="text" value="1">
+											<button class="button_counter">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="container2">
+									<div class="content_gray"><img class="t-0" src="/img/buffer.png" alt="audifonos"></div>
+									<div>
+										<p>Philips Hue 7W BR30</p>
+										<p class="text_red">$13.00</p>
+										<div class="container_counter">
+											<button class="button_counter">-</button>
+											<input class="input_counter" type="text" value="1">
+											<button class="button_counter">+</button>
+										</div>
+									</div>
+								</div>
+								<div class="d-flex justify-content-between">
+									<p>Total:</p>
+									<p>$2,000</p>
+								</div>
+							</div>
+							<div class="w-100 content_button">
+								<a href="">Proceed to Checkout</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav>
+			<div class="container_nav">
+				<div class="containermenu">
+					<input type="checkbox" id="check">
+					<label for="check" class="checkbtn">
+						<i class="fas fa-bars"></i>
+					</label>
+					<span class="ml-2">All Categories</span>
+					<div class="container_category">
+						<ul>
+							<li><a href="">Accesorios</a> <i class="fas fa-chevron-down"></i></i></li>
+							<li><a href="">Almacenamiento</a><i class="fas fa-chevron-down"></i></i></li>
+							<li><a href="">Componentes</a><i class="fas fa-chevron-down"></i></i></li>
+							<li><a href="">Computadoras</a><i class="fas fa-chevron-down"></i></i></li>
+							<li><a href="">Dia Sin Iva</a><i class="fas fa-chevron-down"></i></i></li>
+							<li><a href="">Gamers</a><i class="fas fa-chevron-down"></i></i></li>
+							<li><a href="">Loto Gaming </a><i class="fas fa-chevron-down"></i></i></li>
+							<li><a href="">Pantallas</a>
+								<input type="checkbox" id="checkMenu">
+								<label for="checkMenu" class="checkbtnMenu">
+									<i class="fas fa-chevron-down"></i></i>
+								</label></i>
+								<div class="triangulo"></div>
+								<div class=" sub_menu">
+									<div>
+										<ul>
+											<li><a href="">Monitores</a> </li>
+											<li><a href="">Monitores Gamers</a></li>
+											<li><a href="">Monitores Profesionales</a></li>
+											<li><a href="">Video Bean</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+							<li><a href="">Portatiles</a><i class="fas fa-chevron-down"></i></i></li>
+							<li><a href="">Promos Semanales</a><i class="fas fa-chevron-down"></i></i></li>
+							<li><a href="">Redes</a><i class="fas fa-chevron-down"></i></i></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="menu_container">
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Products</a></li>
+						<li><a href="">Blogs</a></li>
+						<li><a href="">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<article class="banner-detail">
+		<div class=" container-fluid">
+			<div class="info">
+				<h3>Products</h3>
+				<a href="">Home Page </a> / <a href="">Products</a>
+			</div>
+		</div>
+	</article>
+	<article class="producto">
+		<div class="container">
+			<div class="row py-5">
+				<div class="col-lg-5">
+					<div class="slider-for border mb-2">
+						<div><img src="img/slider-product.png" class="img-fluid"></div>
+						<div><img src="img/slider-product.png" class="img-fluid"></div>
+						<div><img src="img/slider-product.png" class="img-fluid"></div>
+					</div>
+					<div class="slider-nav">
+						<div class="border mr-1"><img src="img/slider-product.png" class="img-fluid"></div>
+						<div class="border mr-1"><img src="img/slider-product.png" class="img-fluid"></div>
+						<div class="border mr-1"><img src="img/slider-product.png" class="img-fluid"></div>
+						<div class="border mr-1"><img src="img/slider-product.png" class="img-fluid"></div>
+					</div>
+				</div>
+				<div class="col-lg-7">
+					<h1 class="title-product">Beats Solo2 On Ear Headphones - Black</h1>
+					<div class="estrellas-product py-2">
+						<p>20 Ratings & 10 Reviews</p>
+					</div>
+					<div class="estrellas-product content1">
+						<h4>$649.00</h4>
+						<p style="display: inline;" class="text_tachado"> $96.00</p>
+						<p class="text_black">Availability: <span class="text_orange">In Stock</span></p>
+						<p class="text_black">Category: <span class="text_orange">Accesories</span></p>
+						<p class="text_black">Free Shipping</p>
+						<p class="text_black">10 Units Available</p>
+					</div>
+					<div class="estrellas-product">
+						<p class="text_black mt-2" style="font: size 12px;">Select Color</p>
+						<div class="d-flex w-50">
+							<div class="colorcontainer mr-4">
+								<div></div>
+							</div>
+							<div class="colorcontainer mr-4">
+								<div style="background: #fc3e39"></div>
+							</div>
+							<div class="colorcontainer ">
+								<div style="background: #171717"></div>
+							</div>
+						</div>
+						<div class="mt-4 mb-4 d-flex containerbutton ">
+							<p>Quanlity</p>
+							<div class="buttonDetail">
+								<button>-</button>
+								<input type="text" value="1">
+								<button>+</button>
+							</div>
+						</div>
+					</div>
+					<div class="mt-4">
+						<button class="buttonCart"><i class="fas fa-shopping-cart" style="color:white;"></i> Add To Cart</button>
+						<button class="buttonCartWhite"><i style="color: #63165f; margin-right:0px;" class="far fa-heart"></i> Add
+							To
+							Whislist</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+	<article class="customer-reviews">
+		<div class="container">
+			<div class="row border-cajas mb-4">
+				<div class="col-12 border-cajas-bottom  py-3 pl-4 mb-3">
+					<h3 class="title">Customer Reviews</h3>
+				</div>
+				<div class="col-12 px-4 pb-3">
+					<div class="stars-reviews d-flex">
+						<ul>
+							<li>
+								<i class="yellow fas fa-star"></i>
+								<i class="yellow fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</li>
+						</ul>
+						<p>By <span>Michael Byrd</span> on 14 August 2017 </p>
+					</div>
+					<p class="border-cajas-bottom pb-4">Mauris aliquet augue seenim finibusat consectetur metus congutiam
+						convallis
+						aliquam conguen ornare exdolornon scelerisque nisl fringilla ut. Maecenas faucibus purus id elementum
+						laoreen
+						a hendrerit ested laoreet nibh vel lacus sagittis, eu laoreet metus viverraed rutrum.</p>
+				</div>
+				<div class="col-12 px-4 pb-3">
+					<div class="stars-reviews d-flex">
+						<ul>
+							<li>
+								<i class="yellow fas fa-star"></i>
+								<i class="yellow fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</li>
+						</ul>
+						<p>By <span>Michael Byrd</span> on 14 August 2017 </p>
+					</div>
+					<p class="border-cajas-bottom pb-4">Vivamus molestie enim ut libero condimentumvel malesuada mivulpuorem ipsum
+						dolor sitamet consectetur adipiscing elinec semper orcinec ultricies ultricieunc velitest variussed suscipit
+						sed dignissim acanteras aliquet magna ipsum dictum vulputate dolor suscipit non. </p>
+				</div>
+				<div class="col-12 px-4 pb-3 ">
+					<div class="stars-reviews d-flex">
+						<ul>
+							<li>
+								<i class="yellow fas fa-star"></i>
+								<i class="yellow fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</li>
+						</ul>
+						<p>By <span>Michael Byrd</span> on 14 August 2017 </p>
+					</div>
+					<p>Suspendisse viverra nibh vel mattis aliqueroin ultricies vitaeex quis sceleriuisque eleifend convallis
+						leoorbi ultricies turpis nullanec accumsan mi molestie nonaecenas cursus massa quis condimentum venenati
+						uspendisse idmassaut lacus dignissim vestibuonec malesuada ultricies euismod.</p>
+				</div>
+			</div>
+		</div>
+	</article>
+	<article class="add-review">
+		<div class="container">
+			<div class="row border-cajas pb-4">
+				<div class="col-12 border-cajas-bottom py-3 mb-3">
+					<h3 class="title">Add A Review</h3>
+				</div>
+				<div class="col-lg-12">
+					<div class="stars-add d-flex">
+						<p>Your Rating :</p>
+						<ul>
+							<li>
+								<i class="yellow fas fa-star"></i>
+								<i class="yellow fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+							</li>
+						</ul>
+					</div>
+					<form>
+						<div class="form-row">
+							<div class="col">
+								<input type="text" class="form-add" placeholder="YOUR  NAME">
+							</div>
+							<div class="col">
+								<input type="text" class="form-add" placeholder="ENTER EMAIL ADDRESS">
+							</div>
+							<div class="col-lg-12 mt-3">
+								<textarea class="form-add-text" placeholder="Required example textarea"></textarea>
+								<div class="invalid-feedback">
+									Please enter a message in the textarea.
+								</div>
+							</div>
+						</div>
+						<div class="mt-3">
+							<button type="button" class="btn btn-submit btn-primary">SUBMIT</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</article>
+	<article class="releated-product">
+		<div class="container">
+			<div class="row  py-5">
+				<div class="col-12 py-3 mb-3">
+					<h3 class="title">Releated Product</h3>
+				</div>
+				<div class="col-lg-3 col-6 text-center">
+					<div class="card mb-3">
+						<img src="img/audifonos.jpg" class="card-img-top" alt="...">
+						<div class="border-top card-body">
+							<h5 class="card-titles">Beats Solo2 On <br> Ear Headphones - Black</h5>
+							<div class="stars-releated d-flex">
+
+								<ul>
+									<li>
+										<i class="blue fas fa-star"></i>
+										<i class="blue fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</li>
+								</ul>
+							</div>
+							<div class="price">
+								<span class="price-red">$69.00</span>
+								<span>$96.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6 text-center">
+					<div class="card mb-3">
+						<img src="img/HD618.png" class="card-img-top" alt="...">
+						<div class="border-top card-body">
+							<h5 class="card-titles">Beats Solo2 On <br> Ear Headphones - Black</h5>
+							<div class="stars-releated d-flex">
+
+								<ul>
+									<li>
+										<i class="blue fas fa-star"></i>
+										<i class="blue fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</li>
+								</ul>
+							</div>
+							<div class="price">
+								<span class="price-red">$69.00</span>
+								<span>$96.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6 text-center">
+					<div class="card mb-3">
+						<img src="img/HH0T2.jpg" class="card-img-top" alt="...">
+						<div class="border-top card-body">
+							<h5 class="card-titles">Beats Solo2 On <br> Ear Headphones - Black</h5>
+							<div class="text-center stars-releated d-flex">
+
+								<ul>
+									<li>
+										<i class="blue fas fa-star"></i>
+										<i class="blue fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</li>
+								</ul>
+							</div>
+							<div class="price">
+								<span class="price-red">$69.00</span>
+								<span>$96.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-6 text-center">
+					<div class="card mb-3">
+						<img src="img/HGAA2.png" class="card-img-top" alt="...">
+						<div class="border-top card-body">
+							<h5 class="card-titles">Beats Solo2 On <br> Ear Headphones - Black</h5>
+							<div class="stars-releated d-flex">
+
+								<ul>
+									<li>
+										<i class="blue fas fa-star"></i>
+										<i class="blue fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</li>
+								</ul>
+							</div>
+							<div class="price">
+								<span class="price-red">$69.00</span>
+								<span>$96.00</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+	<article class="section-email">
+		<div class="container">
+			<div class="row py-5">
+				<div class="col-lg-6 col-12">
+					<h3 class="title">Weekly Newsletter</h3>
+					<p>Suscribe to uor email list and stay up-to-date with all our<br> anwesome releases and latest updates.</p>
+				</div>
+				<div class="col-lg-6 col-12">
+					<div class="input-group mb-3">
+						<input type="text" class="form-button" placeholder="Enter Your Email Address"
+							aria-describedby="button-addon2">
+						<div class="input-group-append">
+							<button class=" btn-suscribe btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</article>
+	<section class="footer">
+		<div class="container">
+			<div class="row py-5">
+				<div class="col-lg-3 col-12 text-center">
+					<img src="img/logo.png">
+					<ul class="redes-sociales">
+						<li>
+							<i class="fab fa-facebook-f"></i>
+						</li>
+						<li>
+							<i class="fab fa-twitter"></i>
+						</li>
+						<li>
+							<i class="fab fa-youtube"></i>
+						</li>
+						<li>
+							<i class="fab fa-pinterest-p"></i>
+						</li>
+						<li>
+							<i class="fab fa-pinterest-p"></i>
+						</li>
+					</ul>
+					<div class="text-reserved">
+						<p>© 2019 Shopee ® All Right Reserved</p>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-6">
+					<h3>About</h3>
+					<ul>
+						<li><a href="">About Us</a></li>
+						<li><a href="">Careers</a></li>
+						<li><a href="">International</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6">
+					<h3>Support</h3>
+					<ul>
+						<li><a href="">Contact</a></li>
+						<li><a href="">Returns</a></li>
+						<li><a href="">Warranty</a></li>
+						<li><a href="">Help</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6">
+					<h3>Legal</h3>
+					<ul>
+						<li><a href="">Privacy</a></li>
+						<li><a href="">Terms</a></li>
+						<li><a href="">Patents</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6">
+					<h3>Other</h3>
+					<ul>
+						<li><a href="">Account</a></li>
+						<li><a href="">Newsletter</a></li>
+					</ul>
+					<div class="metodo-pago-img mt-5">
+						<img src="img/metodo-pago.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script>
+		$('.slider-for').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false,
+			fade: true,
+			asNavFor: '.slider-nav'
+		});
+		$('.slider-nav').slick({
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			asNavFor: '.slider-for',
+			dots: true,
+			centerMode: true,
+			focusOnSelect: true
+		});
+	</script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="/js/slick.min.js"></script>
+</body>
+
+</html>

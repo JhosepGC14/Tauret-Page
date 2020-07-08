@@ -1,0 +1,49 @@
+.banner-my-account {
+  background-image: url(../img/banner_principal.png);
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.blog_content_info_account {
+  position: relative;
+  bottom: -207px;
+  padding-left: 24px;
+}
+.blog_content_info_account h3 {
+  color: #63165f;
+}
+.blog_content_info_account a {
+  color: #2c2c2c;
+}
+
+@media screen and (max-width: 960px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 540px) {
+  .blog_content_info_account {
+    bottom: -59px;
+    padding-left: 4px;
+  }
+  .blog_content_info_account h3 {
+    font-size: 20px;
+  }
+  .blog_content_info_account a {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .list-account img {
+    width: 100%;
+    height: 67%;
+  }
+  .banner-my-account {
+    background-image: url(../img/img-responsive/banner-responsive-account.png);
+    height: 134px !important;
+  }
+}
+/* @media screen and (max-width: 360px) {
+
+
+} */

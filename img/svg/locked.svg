@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="prefix__Locked_Icon" width="23.736" height="28.741" data-name="Locked Icon" viewBox="0 0 23.736 28.741">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#3e3a39}
+        </style>
+    </defs>
+    <path id="prefix__Fill_741" d="M22.994 16.239H.742A.74.74 0 0 1 0 15.5V.738A.741.741 0 0 1 .742 0h22.252a.741.741 0 0 1 .742.738V15.5a.74.74 0 0 1-.742.739zM1.484 1.477v13.286h20.768V1.477z" class="prefix__cls-1" data-name="Fill 741" transform="translate(0 12.502)"/>
+    <path id="prefix__Fill_742" d="M20.027 13.471a.74.74 0 0 1-.742-.738v-2.4a8.9 8.9 0 0 0-17.8 0v2.4a.742.742 0 0 1-1.484 0v-2.4a10.385 10.385 0 0 1 20.769 0v2.4a.74.74 0 0 1-.742.738" class="prefix__cls-1" data-name="Fill 742" transform="translate(1.483)"/>
+    <path id="prefix__Fill_743" d="M13.6 10.273a.74.74 0 0 1-.742-.738v-2.4a5.687 5.687 0 0 0-11.373 0v2.4A.742.742 0 0 1 0 9.534v-2.4a7.17 7.17 0 0 1 14.34 0v2.4a.74.74 0 0 1-.742.738" class="prefix__cls-1" data-name="Fill 743" transform="translate(4.698 3.199)"/>
+    <path id="prefix__Fill_744" d="M22.664.82H.412a.41.41 0 1 1 0-.82h22.252a.41.41 0 1 1 0 .82" class="prefix__cls-1" data-name="Fill 744" transform="translate(.33 23.462)"/>
+    <path id="prefix__Fill_746" d="M22.664.82H.412a.41.41 0 1 1 0-.82h22.252a.41.41 0 1 1 0 .82" class="prefix__cls-1" data-name="Fill 746" transform="translate(.33 17.557)"/>
+</svg>
