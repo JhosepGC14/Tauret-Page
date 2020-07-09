@@ -2106,7 +2106,6 @@ nav {
   .grid_section6 {
     display: grid;
     width: 95%;
-    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   }
 
   .grid_section7 {
@@ -2116,7 +2115,7 @@ nav {
   }
 
   .container_width2 {
-    width: 85%;
+    width: 100%;
     margin: auto;
   }
 
@@ -2597,7 +2596,7 @@ nav {
   }
 
   .category_rwd ul li a {
-    color: black;
+    color: black !important;
     font-weight: 500;
     font-size: 14px;
   }
