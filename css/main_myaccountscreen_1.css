@@ -55,7 +55,7 @@
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 38.1px;
   grid-row-gap: 40px;
-  width: 90%;
+  width: 89%;
   margin: auto;
 }
 
@@ -118,7 +118,6 @@
   border-bottom: 0.8px solid rgba(196, 123, 91, 0.2);
 }
 
-
 .card_detail {
   display: flex;
   flex-direction: column;
@@ -151,6 +150,7 @@
   text-align: center;
   font-weight: 500;
   line-height: 1.27;
+  margin-right: 10px;
 }
 
 .price2 {
@@ -180,7 +180,7 @@
 
 /* RESPONSIVE WEB DESIGN */
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width: 1200px) {
   .blog_content_img {
     height: 257px;
   }
@@ -202,7 +202,7 @@
   }
 }
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width: 1080px) {
   .blog_content_img {
     height: 231px;
   }
@@ -210,7 +210,7 @@
   .blog_content_info h1 {
     font-size: 40px;
   }
-  
+
   .blog_content_info p {
     font-size: 13px;
   }
@@ -218,34 +218,34 @@
   .name h2 {
     font-size: 17px;
   }
-  
+
   .skd {
     font-size: 13px;
   }
-  
-  .all_star{
+
+  .all_star {
     width: 51%;
   }
 
   .all_price span {
     font-size: 20px;
   }
-  
+
   .card_detail button {
     font-size: 12px;
     height: 36px;
   }
 }
 
-@media screen and (max-width:960px) {
+@media screen and (max-width: 960px) {
   .blog_content_img {
     height: 206px;
   }
-  
+
   .blog_content_info h1 {
     font-size: 38px;
   }
-  
+
   .blog_content_info p {
     font-size: 12px;
   }
@@ -253,21 +253,21 @@
   .name h2 {
     font-size: 15px;
   }
-  
-  .all_star{
+
+  .all_star {
     width: 57%;
   }
-  
+
   .all_price span {
     font-size: 17px;
   }
-  
+
   .card_detail button {
     height: 34px;
   }
 }
 
-@media screen and (max-width:760px) {
+@media screen and (max-width: 760px) {
   .blog_content_img {
     height: 163px;
   }
@@ -275,7 +275,7 @@
   .blog_content_info h1 {
     font-size: 30px;
   }
-  
+
   .blog_content_info p {
     font-size: 11px;
   }
@@ -283,23 +283,23 @@
   .name h2 {
     font-size: 12px;
   }
-  
+
   .star {
     width: 10%;
   }
-  
+
   .skd {
     font-size: 10px;
   }
-  
+
   .all_price {
     width: 42%;
   }
-  
+
   .all_price span {
     font-size: 12px;
   }
-  
+
   .card_detail button {
     height: 29px;
     font-size: 10px;
@@ -308,7 +308,7 @@
 
 /* RESPONSIVE MOBIL */
 
-@media screen and (max-width:540px) {
+@media screen and (max-width: 540px) {
   .all {
     margin: 8% auto 0%;
   }
@@ -352,19 +352,18 @@
   .all_price span {
     font-size: 13px;
   }
-  
+
   .card_detail button {
     height: 30px;
     font-size: 11px;
   }
-  
 }
 
-@media screen and (max-width: 480px){ 
+@media screen and (max-width: 480px) {
   .name h2 {
     font-size: 11px;
   }
-  
+
   .all_price span {
     font-size: 11px;
   }
@@ -380,7 +379,7 @@
     font-size: 9px;
     line-height: 1.22;
   }
-  
+
   .icons figure {
     height: 36.6px;
   }
@@ -392,14 +391,13 @@
   .skd {
     font-size: 8px;
   }
-  
+
   .all_price span {
     font-size: 9px;
   }
-  
+
   .card_detail button {
     font-size: 7px;
     height: 20px;
   }
-  
 }

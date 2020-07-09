@@ -167,6 +167,7 @@ aside h3 {
 .img_blog_card img {
   position: absolute;
   z-index: -1;
+  width: 100%;
 }
 
 .blog_card_info p {

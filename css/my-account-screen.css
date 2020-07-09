@@ -8,7 +8,7 @@
 .blog_content_info_account {
   position: relative;
   bottom: -207px;
-  padding-left: 24px;
+  padding-left: 90px;
 }
 .blog_content_info_account h3 {
   color: #63165f;
@@ -20,6 +20,11 @@
 @media screen and (max-width: 960px) {
 }
 @media screen and (max-width: 768px) {
+  .blog_content_info_account {
+    position: relative;
+    bottom: -207px;
+    padding-left: 24px;
+  }
 }
 @media screen and (max-width: 540px) {
   .blog_content_info_account {
