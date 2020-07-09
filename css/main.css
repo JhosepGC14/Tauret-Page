@@ -2610,10 +2610,6 @@ nav {
     font-size: 13px;
   }
 
-  .grid_section4 {
-    grid-column-gap: 30px;
-  }
-
   .grid_products {
     grid-column-gap: 66px;
     overflow-x: scroll;
@@ -2673,25 +2669,53 @@ nav {
   }
 
   .content_image_section4 .image_laptop {
-    width: 124%;
+    transform: translateX(-8%) translateY(-8%);
   }
 
   .content_navegation {
     width: 67%;
   }
 
+  .content_info_section4 {
+    width: 100%;
+    padding: 23px 0px 30px 0px;
+    text-align: center;
+  }
+
   .content_navegation ul li a {
     font-size: 12px;
   }
 
+  .grid_section4 {
+    width: 80%;
+    height: 50%;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .content_image_section4::before {
+    display: none;
+  }
+
+  .content_image_section4::after {
+    display: none;
+  }
+
+  .imagenplay {
+    display: none;
+  }
+
   .content_image_section4 {
-    margin: 30px 0px 44px 37px;
+    width: 80%;
+    height: 250px;
   }
   .content_info_section4 h3 {
     font-size: 30px;
+    text-align: center;
   }
   .content_info_section4 p {
     font-size: 12px;
+    text-align: center;
   }
   .content_price_section4 span {
     font-size: 11px;
@@ -2700,6 +2724,7 @@ nav {
     font-size: 22px;
   }
   .stars_section4 {
+    justify-content: center;
     margin-top: 6px;
   }
   .button_section4 button:first-child {
@@ -3042,11 +3067,6 @@ nav {
     margin-bottom: 0px;
   }
 
-  .grid_section4 {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-
   .content_image_section4 .image_laptop {
     width: 112%;
   }
@@ -3091,8 +3111,12 @@ nav {
     margin: auto;
   }
 
+  .grid_section4 {
+    width: 100%;
+  }
+
   .content_image_section4 {
-    margin: 40px 37px 30px 37px;
+    height: 200px;
   }
 
   .text_price {
@@ -3673,6 +3697,10 @@ nav {
     font-size: 5px;
   }
 
+  .content_image_section4 {
+    height: 180px;
+  }
+
   .content_price span {
     font-size: 7px;
   }
@@ -3684,6 +3712,10 @@ nav {
 
   .container_ul_section1 ul li a {
     font-size: 10px;
+  }
+
+  .grid_products {
+    grid-template-rows: 285px;
   }
 
   .menu_container {
