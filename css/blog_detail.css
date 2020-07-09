@@ -11,8 +11,9 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
+  background-position-y: center;
+  background-position-x: center;
 }
-
 .blog_content_info {
   width: 85%;
   margin: 0px auto;
@@ -51,7 +52,7 @@
 }
 
 .blog_section2 aside {
-  width: 24%;
+  width: 29%;
   padding-right: 27px;
   margin-bottom: 116px;
 }

@@ -12,6 +12,8 @@
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
+  background-position-x: center;
+  background-position-y: center;
 }
 
 .blog_content_info {
