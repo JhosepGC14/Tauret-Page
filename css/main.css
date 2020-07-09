@@ -20,7 +20,7 @@ header {
 }
 
 .container_width2 {
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
@@ -930,7 +930,7 @@ nav {
 }
 
 .content_navegation {
-  width: 38%;
+  width: auto;
 }
 
 .content_navegation ul {
@@ -949,6 +949,7 @@ nav {
   letter-spacing: 0.35px;
   color: #545454;
   border: 1px solid transparent;
+  margin-right: 8px;
 }
 
 .content_navegation ul li:first-child a {
@@ -2113,12 +2114,27 @@ nav {
     width: 95%;
     grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   }
+
+  .container_width2 {
+    width: 85%;
+    margin: auto;
+  }
 }
 
-@media (max-width: 1238px) {
+@media (max-width: 1380px) {
+  .container_width2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1280px) {
   .grid_section4 {
     display: flex;
     flex-direction: row;
+    width: 100%;
+  }
+
+  .container_width2 {
     width: 100%;
   }
 }
@@ -2132,8 +2148,8 @@ nav {
   }
 
   /* SECTION 2 */
-  .section2 {
-    width: 90%;
+  .container_width2 {
+    width: 100%;
     margin: 62px auto 62px auto;
   }
 
