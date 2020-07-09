@@ -13,6 +13,17 @@ header {
   color: white;
 }
 
+.container_width {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+.container_width2 {
+  width: 80%;
+  margin: auto;
+}
+
 .container_header {
   width: 85%;
   height: 43px;
