@@ -2119,6 +2119,19 @@ nav {
     width: 85%;
     margin: auto;
   }
+
+  .content_image_8 {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+  }
+
+  .content_img {
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    right: 30%;
+  }
 }
 
 @media (max-width: 1380px) {
