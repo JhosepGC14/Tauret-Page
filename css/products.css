@@ -80,7 +80,7 @@ input[type="range"]::-webkit-slider-thumb {
 /* SECTION2 */
 
 .all_cards {
-  grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+  grid-template-columns: repeat(3, 255px);
 }
 
 .photo {
@@ -713,7 +713,7 @@ input[type="range"]::-webkit-slider-thumb {
   }
 
   .all_cards {
-    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
