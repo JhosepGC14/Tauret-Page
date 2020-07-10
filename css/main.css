@@ -1165,6 +1165,7 @@ nav {
   border-radius: 16px;
   border: solid 1px #f7f7f7;
   background-color: #ffffff;
+  margin-bottom: 150px;
 }
 
 .content_info_section4 {
@@ -2156,21 +2157,31 @@ nav {
     width: 90%;
   }
 
+  /* .section7 h2,
+  .section6 h2 {
+    margin-left: 70px;
+  } */
+
   .grid_section6 {
     display: grid;
     width: 95%;
+    grid-template-columns: repeat(3, 305px);
     justify-content: center;
+    grid-column-gap: 160px;
   }
 
   .grid_section7 {
     display: grid;
     width: 95%;
+    grid-template-columns: repeat(3, 305px);
     justify-content: center;
+    grid-column-gap: 160px;
   }
 
   .grilla_5 {
     grid-template-columns: repeat(3, 356px);
     justify-content: center;
+    grid-column-gap: 116px;
   }
 
   .container_width2 {
