@@ -3526,6 +3526,9 @@ nav {
   .section2_content_button {
     width: 27%;
   }
+  .content_button a {
+    font-size: 12px;
+  }
 
   .content_list {
     width: 72.3%;
