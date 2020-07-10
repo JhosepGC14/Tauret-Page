@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" viewBox="0 0 16 14">
+    <defs>
+        <style>
+            .prefix__cls-1{fill:#fff}
+        </style>
+    </defs>
+    <g id="prefix__Icon_ionic-ios-cart" data-name="Icon ionic-ios-cart" transform="translate(-3.382 -4.493)">
+        <path id="prefix__Trazado_1654" d="M11.549 29.118a.993.993 0 1 1-.993-.993.993.993 0 0 1 .993.993z" class="prefix__cls-1" data-name="Trazado 1654" transform="translate(-2.832 -11.618)"/>
+        <path id="prefix__Trazado_1655" d="M27.334 29.118a.993.993 0 1 1-.993-.993.993.993 0 0 1 .993.993z" class="prefix__cls-1" data-name="Trazado 1655" transform="translate(-10.246 -11.618)"/>
+        <path id="prefix__Trazado_1656" d="M19.376 6.915a.223.223 0 0 0-.2-.149L6.645 5.649a.391.391 0 0 1-.289-.167 3.6 3.6 0 0 0-.469-.66c-.3-.333-.854-.323-1.878-.33-.346 0-.627.184-.627.5a.534.534 0 0 0 .6.5 5.537 5.537 0 0 1 1 .067c.181.05.327.323.381.56a.012.012 0 0 0 0 .011c.008.043.077.362.077.365L6.983 14a2.645 2.645 0 0 0 .558 1.266 1.584 1.584 0 0 0 1.266.574h9.1a.531.531 0 0 0 .554-.475.514.514 0 0 0-.539-.518H8.8a.473.473 0 0 1-.319-.1 1.545 1.545 0 0 1-.442-.922l-.165-.84a.02.02 0 0 1 .015-.021L18.572 11.3a.215.215 0 0 0 .189-.184l.616-4.106a.187.187 0 0 0-.001-.095z" class="prefix__cls-1" data-name="Trazado 1656"/>
+    </g>
+</svg>

@@ -6,6 +6,10 @@
   width: 85% !important;
 }
 
+.icons_hover ul li img {
+  width: auto;
+}
+
 h2 {
   font-size: 25px;
   font-weight: 500;
