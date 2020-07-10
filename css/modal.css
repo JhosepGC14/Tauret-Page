@@ -1,0 +1,159 @@
+.text_tachado {
+    font-size: 18px;
+    color: #545454;
+    text-decoration: line-through;
+}
+.content1 h4 {
+    color: #fc3e39;
+    font-size: 26px;
+    display: inline-block;
+    margin: 20px 20px 20px 0px;
+}
+.title-product {
+    font-size: 29px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.55;
+    letter-spacing: normal;
+    color: #252525;
+    margin-bottom: 17px;
+}
+.stars-modal {
+    padding: 0px;
+    list-style: none;
+    margin-bottom: 0px;
+}
+.stars-modal li {
+    display: flex;
+}
+.stars-modal li .yellow {
+    color: #ffc300;
+}
+.stars-modal p {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    color: #999999;
+    margin-left: 11px;
+}
+.stars-modal svg {
+    color: #999999;
+    font-size: 11px;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.text_black {
+    font-size: 15px;
+    color: #252525;
+}
+.text_orange {
+    font-size: 15px;
+    color: #fc3e39;
+}
+.colorcontainer {
+    width: 30.5px;
+    height: 30.5px;
+    border: solid 1px #8a8a8a;
+    background-color: rgba(0, 108, 255, 0);
+    border: 1px solid #8a8a8a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorcontainer > div {
+    width: 19.4px;
+    height: 19.4px;
+    background-color: #006cff;
+    border-radius: 50%;
+}
+.containerbutton {
+    align-items: center;
+    width: 60%;
+}
+.containerbutton p {
+    margin-right: 37px;
+    margin-bottom: 0px;
+}
+.buttonDetail {
+    display: flex;
+    justify-content: flex-start;
+}
+.buttonDetail button {
+    width: 36.1px;
+    height: 36.1px;
+    border: solid 1px #e5e5e5;
+    background-color: rgba(0, 108, 255, 0);
+}
+.buttonDetail input {
+    text-align: center;
+    font-size: 11px;
+    width: 36.1px;
+    height: 36.1px;
+    border: solid 1px #e5e5e5;
+    background-color: rgba(0, 108, 255, 0);
+}
+.buttonCart {
+    width: 191.5px;
+    height: 47.2px;
+    border-radius: 4px;
+    background-color: #63165f;
+    font-size: 14px;
+    color: white;
+    border: none;
+    margin-right: 35px;
+}
+.buttonCartWhite {
+    width: 202.5px;
+    height: 47.2px;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #63165f;
+    border: none;
+    border: solid 1px #63165f;
+    background: white;
+}
+.close-modal{
+    position: absolute;
+    top: -19px;
+    right: -19px;
+}
+		.close-modal button{
+    width: 65px;
+    text-align: center;
+    height: 66px;
+    background-color: #63165f;
+    opacity: 1;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: -1px;
+}
+.close-modal button:hover{
+	background-color: #63165f !important;
+	color: #ffffff !important;
+	opacity: 1 !important;
+}
+.close-modal button span {
+    font-size: 49px;
+    vertical-align: super;
+}
+
+		.slider-for .slick-active{
+		width: 400px !important;
+
+	}
+		.slider-for .slick-track{
+		width:1287px !important;
+		    margin-left: 0px;
+    margin-right: 0px;
+		}	
+		.slider-nav .slick-track{
+			width: 100% !important;
+		}
+	.slider-nav .slick-slide{
+		width: 20% !important;
+	}
