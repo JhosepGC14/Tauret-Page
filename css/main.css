@@ -979,7 +979,7 @@ nav {
   border-radius: 15px;
 }
 
-.imagen_hover{
+.imagen_hover {
   position: relative;
 }
 
@@ -2152,15 +2152,25 @@ nav {
 /*===========================================*/
 /* RWD - HOMEPAGE */
 @media (min-width: 1440px) {
+  .grid_products {
+    width: 90%;
+  }
+
   .grid_section6 {
     display: grid;
     width: 95%;
+    justify-content: center;
   }
 
   .grid_section7 {
     display: grid;
     width: 95%;
-    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+    justify-content: center;
+  }
+
+  .grilla_5 {
+    grid-template-columns: repeat(3, 356px);
+    justify-content: center;
   }
 
   .container_width2 {
@@ -2179,6 +2189,10 @@ nav {
     position: absolute;
     top: 20%;
     right: 30%;
+  }
+
+  .content_image_section4 .image_laptop {
+    transform: translateX(-11%) translateY(-20%);
   }
 }
 
