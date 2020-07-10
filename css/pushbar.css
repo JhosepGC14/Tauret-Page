@@ -29,7 +29,7 @@ html.pushbar_locked .pushbar_overlay {
 [data-pushbar-id] {
   z-index: 1000;
   position: fixed;
-  overflow-y: auto;
+  overflow-y: scroll;
   will-change: transform;
   transition: transform 0.8s ease;
   background: #fff;
