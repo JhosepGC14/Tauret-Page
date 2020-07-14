@@ -3516,6 +3516,10 @@ nav {
     font-size: 18px;
   }
 
+  .img-rwd-footer{
+    width: 100%;
+  }
+
   .container_ul_section1 ul li a {
     font-size: 11px;
     margin-right: 0px;
