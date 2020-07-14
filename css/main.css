@@ -177,7 +177,7 @@ nav {
 .menu_container ul li a {
   font-size: 14px;
   text-decoration: none;
-  color: #000000;
+  color: #000000 !important;
   font-weight: 500;
 }
 
@@ -2679,9 +2679,15 @@ nav {
   }
 
   /* FINALIZA AQUI */
+.container_nav{
+  flex-direction: column;
+}
+  
   .menu_container {
-    display: none;
-  }
+    width: auto;
+    display: block;
+    margin: 25px 0px;
+}
 
   .container_ul_section1 ul li a {
     font-size: 13px;
@@ -3798,9 +3804,6 @@ nav {
     grid-template-rows: 285px;
   }
 
-  .menu_container {
-    display: none !important;
-  }
 
   .container_nav {
     width: 100%;
